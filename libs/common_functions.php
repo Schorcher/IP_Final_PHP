@@ -141,7 +141,7 @@ function data_user()
     $r3 = $DB->query($q3);
     $data = $r3->fetch();
 
-    $data['fullname'] = $data['first_name'] . $data['last_name'];
+    $data['fullname'] = $data['first_name'] . ' ' . $data['last_name'];
     $data['fullname_reverse'] = $data['last_name'] . ', ' . $data['first_name'];
 
     return $data;

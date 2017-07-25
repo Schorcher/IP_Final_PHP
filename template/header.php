@@ -55,6 +55,7 @@
                             <li<?php if($pageDetails=='TODO'){echo ' class="active"';} ?>><a href='/todo.php'>To-Do List</a></li>
                             <li<?php if($pageDetails=='list'){echo ' class="active"';} ?>><a href='/wishlist.php'>WishList</a></li>
                             <li<?php if($pageDetails=='board'){echo ' class="active"';} ?>><a href='/board.php'>Message Board</a></li>
+                            <li<?php if($pageDetails=='about'){echo ' class="active"';} ?>><a href='/about.php'>About Us</a></li>
                         <?php } ?>
 
                     </ul>
