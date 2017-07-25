@@ -10,7 +10,7 @@
 <!DOCTYPE HTML>
 <HTML>
 <head>
-    <title><?php echo($page['title']); ?> - ACM</title>
+    <title><?php echo($page['title']); ?> CRH</title>
     <link rel="icon" href="http://artoo.kennesaw.edu/_resources/images/favicon.ico" type="text/png"/>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -55,16 +55,12 @@
                             <li<?php if($pageDetails=='TODO'){echo ' class="active"';} ?>><a href='/todo.php'>To-Do List</a></li>
                             <li<?php if($pageDetails=='list'){echo ' class="active"';} ?>><a href='/wishlist.php'>WishList</a></li>
                             <li<?php if($pageDetails=='board'){echo ' class="active"';} ?>><a href='/board.php'>Message Board</a></li>
-                            <li<?php if($pageDetails=='about'){echo ' class="active"';} ?>><a href='/about.php'>About Us</a></li>
                         <?php } ?>
-
+                        <li<?php if($pageDetails=='about'){echo ' class="active"';} ?>><a href='/about.php'>About Us</a></li>
                     </ul>
                     <ul class="nav navbar-nav pull-right">
                         <?php
                         if (isLoggedIn()) {
-                            echo "<li>";
-                            echo "<buton id=\"btn-debug\" class=\"btn btn-default navbar-btn\"><i class=\"fa fa-bug\"></i></buton>";
-                            echo "</li>";
 
                             echo "<li class=\"dropdown\">";
                             echo "<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\" role=\"button\"

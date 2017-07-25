@@ -26,12 +26,12 @@ if ($_POST) {
             // Start Session
             $_SESSION['email'] = $_POST['inputEmail'];
 
-            if($user['permissions'] == 'admin')
+            if($user['permissions'] == 'Admin')
             {
                 $_SESSION['teacher'] = 'TRUE';
             }
 
-            header('Location: index.php');
+            header('Location: userinfo.php');
         }
     }
 }

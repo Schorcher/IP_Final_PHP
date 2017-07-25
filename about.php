@@ -35,7 +35,7 @@ include(D_TEMPLATE . '/header.php');
                         <div class="lib-panel">
                             <div class="row box-shadow">
                                 <div class="col-md-6">
-                                    <img class="lib-img-show" src="http://lorempixel.com/850/850/?random=123">
+                                    <img class="lib-img-show" src="/images/UNADJUSTEDNONRAW_thumb_f29.jpg">
                                 </div>
                                 <div class="col-md-6">
                                     <div class="lib-row lib-header">
@@ -43,8 +43,9 @@ include(D_TEMPLATE . '/header.php');
                                         <div class="lib-header-seperator"></div>
                                     </div>
                                     <div class="lib-row lib-desc">
-                                        Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem
-                                        ipsum dolor Lorem ipsum dolor
+                                        David is a Senior at KSU. Major in Computer Science and Software Engineering.
+                                        Has an adorable dog named Ellie. David currently runs and manages 3 businesses.
+                                        He loves playing fallout games in his spare time.
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +58,7 @@ include(D_TEMPLATE . '/header.php');
                         <div class="lib-panel">
                             <div class="row box-shadow">
                                 <div class="col-md-6">
-                                    <img class="lib-img-show" src="http://lorempixel.com/850/850/?random=123">
+                                    <img class="lib-img-show" src="https://avatars0.githubusercontent.com/u/25462828?v=4&s=460">
                                 </div>
                                 <div class="col-md-6">
                                     <div class="lib-row lib-header">
@@ -65,8 +66,11 @@ include(D_TEMPLATE . '/header.php');
                                         <div class="lib-header-seperator"></div>
                                     </div>
                                     <div class="lib-row lib-desc">
-                                        Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem
-                                        ipsum dolor Lorem ipsum dolor
+                                        Elizabeth is a senior at KSU. She is a computer science major.
+                                        She is planning on attending grad school for Library Science.
+                                        Her goal is to work at the Bodleian Library in Oxford, England.
+                                        She has worked at Chick-fil-a for 6 years. She loves her cats: Pookie, Bagheera, and Mitzy.
+                                        She enjoys spending time with family, singing, playing piano, traveling, and watching classic movies.
                                     </div>
                                 </div>
                             </div>
@@ -79,16 +83,19 @@ include(D_TEMPLATE . '/header.php');
                         <div class="lib-panel">
                             <div class="row box-shadow">
                                 <div class="col-md-6">
-                                    <img class="lib-img-show" src="http://lorempixel.com/850/850/?random=123">
+                                    <img class="lib-img-show" src="http://acm.kennesaw.edu/assets/img/alex.jpg">
                                 </div>
                                 <div class="col-md-6">
                                     <div class="lib-row lib-header">
-                                        Alex V.
+                                        Alex Veselinovic
                                         <div class="lib-header-seperator"></div>
                                     </div>
                                     <div class="lib-row lib-desc">
-                                        Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem
-                                        ipsum dolor Lorem ipsum dolor
+                                        I am a Senior CS Major at Kennesaw State University.
+                                        The languages I primarily use are C, C++, C#, Python, x86 Assembly, and Java.
+                                        I prefer Unix systems over all specifically Debian or Fedora distributions.
+                                        I am more interested in lower level programming, and system based programming, rather than the higher levels.
+                                        I hope to go into security analysis or cybersecurity for a career.
                                     </div>
                                 </div>
                             </div>
@@ -97,7 +104,7 @@ include(D_TEMPLATE . '/header.php');
                 </div>
             </div>
         </div>
-
+    </div>
         <link href="css/about.css" rel="stylesheet">
 
 <?php

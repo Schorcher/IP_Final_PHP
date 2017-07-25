@@ -7,7 +7,7 @@
  */
 
 require("libs/config.php");
-$pageDetails = "INDEX-TEMP";
+$pageDetails = "login";
 
 # Session Start
 session_start();
